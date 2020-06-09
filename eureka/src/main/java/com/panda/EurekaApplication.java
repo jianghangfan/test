@@ -1,13 +1,13 @@
-package com.panda.panda;
+package com.panda;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PandaApplication {
+public class EurekaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PandaApplication.class, args);
+		SpringApplication.run(EurekaApplication.class, args);
 	}
 
 }
