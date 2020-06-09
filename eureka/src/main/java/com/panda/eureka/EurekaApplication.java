@@ -11,6 +11,7 @@ import org.springframework.core.env.Environment;
 @EnableEurekaServer
 public class EurekaApplication {
 //	55555555
+//	6666
 
 	private static  final Logger logger = LoggerFactory.getLogger(EurekaApplication.class);
 //	public static void main(String[] args) {
