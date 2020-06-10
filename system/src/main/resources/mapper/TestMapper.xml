@@ -7,7 +7,8 @@
 <mapper namespace="com.panda.system.mapper.TestMapper">
 
 	<select id="testList" resultType="com.panda.system.dao.Test">
-		SELECT t.id,t.name FROM  test t
+-- 		SELECT t.id,t.name FROM  test t
+	SELECT t.id,t.name FROM test t
 	</select>
 	
 </mapper>
