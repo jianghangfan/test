@@ -4,9 +4,9 @@
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 	
 	
-<mapper namespace="com.panda.TestMapper">
+<mapper namespace="com.panda.server.mapper.TestMapper">
 
-	<select id="testList" resultType="com.panda.Test">
+	<select id="testList" resultType="com.panda.server.dao.Test">
 -- 		SELECT t.id,t.name FROM  test t
 	SELECT t.id,t.name FROM test t
 	</select>
