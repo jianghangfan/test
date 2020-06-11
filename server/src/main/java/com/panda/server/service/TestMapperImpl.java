@@ -14,6 +14,6 @@ public class TestMapperImpl{
     private TestMapper testMapper;
 
     public List<Test> testList(){
-        return testMapper.testList();
+        return testMapper.selectByExample(null);
     }
 }
