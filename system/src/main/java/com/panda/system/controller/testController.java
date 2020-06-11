@@ -1,7 +1,7 @@
 package com.panda.system.controller;
 
-import com.panda.system.dao.Test;
-import com.panda.system.service.TestMapperImpl;
+import com.panda.server.dao.Test;
+import com.panda.server.service.TestMapperImpl;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
